@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Event:                                 Condition -->
+<!-- EVENT_SAR_WIFI_STATE_CHANGE              :"C1"-->
+<!-- EVENT_SAR_WIFI_HOTSPOT_STATE_CHANGE      :"C2"-->
+<!-- EVENT_SAR_PROX_SENSOR_STATE_CHANGE       :"C3"-->
+<!-- EVENT_SAR_CALL_STATE_CHANGE              :"C4"-->
+<!-- EVENT_SAR_HEAD_ANTENNA_STATE_CHANGE      :"C5"-->
+<!-- EVENT_SAR_BOTTOM_ANTENNA_STATE_CHANGE    :"C6"-->
+<!-- EVENT_SAR_MASTER_ANTENNA_STATE_CHANGE    :"C7"-->
+<!-- EVENT_SAR_LTE_RRC_STATE_CHANGE           :"C8"-->
+<!-- EVENT_SAR_AUDIO_EARPIECE_STATE_CHANGE    :"C9"-->
+<!-- EVENT_SAR_NR_5G_STATE_CHANGE             :"C17"-->
+<!-- EVENT_SAR_BOTTOM_SIDE_ANTENNA_STATE_CHANGE  :"C18"-->
+<!-- EVENT_SAR_WCDMA_RRC_STATE_CHANGE         :"C19"-->
+<policyconfig>
+    <Policy>
+        <condition>!S3&amp;&amp;!C1&amp;&amp;!C8&amp;&amp;!C17</condition>
+        <target>SAR_TARGET_MODEM_RF</target>
+        <level>LEVEL_DEFAULT</level>
+    </Policy>
+    <Policy>
+        <condition>!S3&amp;&amp;!C1&amp;&amp;!C8&amp;&amp;C17</condition>
+        <target>SAR_TARGET_MODEM_RF</target>
+        <level>LEVEL_DEFAULT</level>
+    </Policy>
+    <Policy>
+        <condition>!S3&amp;&amp;!C1&amp;&amp;C8&amp;&amp;!C17</condition>
+        <target>SAR_TARGET_MODEM_RF</target>
+        <level>LEVEL_DEFAULT</level>
+    </Policy>
+    <Policy>
+        <condition>!S3&amp;&amp;!C1&amp;&amp;C8&amp;&amp;C17</condition>
+        <target>SAR_TARGET_MODEM_RF</target>
+        <level>LEVEL_DEFAULT</level>
+    </Policy>
+    <Policy>
+        <condition>!S3&amp;&amp;C1&amp;&amp;!C8&amp;&amp;!C17</condition>
+        <target>SAR_TARGET_MODEM_RF</target>
+        <level>LEVEL_DEFAULT</level>
+    </Policy>
+    <Policy>
+        <condition>!S3&amp;&amp;C1&amp;&amp;!C8&amp;&amp;C17</condition>
+        <target>SAR_TARGET_MODEM_RF</target>
+        <level>LEVEL_DEFAULT</level>
+    </Policy>
+    <Policy>
+        <condition>!S3&amp;&amp;C1&amp;&amp;C8&amp;&amp;!C17</condition>
+        <target>SAR_TARGET_MODEM_RF</target>
+        <level>LEVEL_DEFAULT</level>
+    </Policy>
+    <Policy>
+        <condition>!S3&amp;&amp;C1&amp;&amp;C8&amp;&amp;C17</condition>
+        <target>SAR_TARGET_MODEM_RF</target>
+        <level>LEVEL_DEFAULT</level>
+    </Policy>
+    <Policy>
+        <condition>S3&amp;&amp;!C1&amp;&amp;!C8&amp;&amp;!C17</condition>
+        <target>SAR_TARGET_MODEM_RF</target>
+        <level>LEVEL_DEFAULT</level>
+    </Policy>
+    <Policy>
+        <condition>S3&amp;&amp;!C1&amp;&amp;!C8&amp;&amp;C17</condition>
+        <target>SAR_TARGET_MODEM_RF</target>
+        <level>LEVEL1</level>
+    </Policy>
+    <Policy>
+        <condition>S3&amp;&amp;!C1&amp;&amp;C8&amp;&amp;!C17</condition>
+        <target>SAR_TARGET_MODEM_RF</target>
+        <level>LEVEL2</level>
+    </Policy>
+    <Policy>
+        <condition>S3&amp;&amp;!C1&amp;&amp;C8&amp;&amp;C17</condition>
+        <target>SAR_TARGET_MODEM_RF</target>
+        <level>LEVEL_DEFAULT</level>
+    </Policy>
+    <Policy>
+        <condition>S3&amp;&amp;C1&amp;&amp;!C8&amp;&amp;!C17</condition>
+        <target>SAR_TARGET_MODEM_RF</target>
+        <level>LEVEL_DEFAULT</level>
+    </Policy>
+    <Policy>
+        <condition>S3&amp;&amp;C1&amp;&amp;!C8&amp;&amp;C17</condition>
+        <target>SAR_TARGET_MODEM_RF</target>
+        <level>LEVEL_DEFAULT</level>
+    </Policy>
+    <Policy>
+        <condition>S3&amp;&amp;C1&amp;&amp;C8&amp;&amp;!C17</condition>
+        <target>SAR_TARGET_MODEM_RF</target>
+        <level>LEVEL_DEFAULT</level>
+    </Policy>
+    <Policy>
+        <condition>S3&amp;&amp;C1&amp;&amp;C8&amp;&amp;C17</condition>
+        <target>SAR_TARGET_MODEM_RF</target>
+        <level>LEVEL_DEFAULT</level>
+    </Policy>
+    <Policy>
+        <condition>!S3&amp;&amp;!C1&amp;&amp;!C8&amp;&amp;!C17</condition>
+        <target>SAR_TARGET_WIFI</target>
+        <level>LEVEL_DEFAULT</level>
+    </Policy>
+    <Policy>
+        <condition>!S3&amp;&amp;!C1&amp;&amp;!C8&amp;&amp;C17</condition>
+        <target>SAR_TARGET_WIFI</target>
+        <level>LEVEL_DEFAULT</level>
+    </Policy>
+    <Policy>
+        <condition>!S3&amp;&amp;!C1&amp;&amp;C8&amp;&amp;!C17</condition>
+        <target>SAR_TARGET_WIFI</target>
+        <level>LEVEL_DEFAULT</level>
+    </Policy>
+    <Policy>
+        <condition>!S3&amp;&amp;!C1&amp;&amp;C8&amp;&amp;C17</condition>
+        <target>SAR_TARGET_WIFI</target>
+        <level>LEVEL_DEFAULT</level>
+    </Policy>
+    <Policy>
+        <condition>!S3&amp;&amp;C1&amp;&amp;!C8&amp;&amp;!C17</condition>
+        <target>SAR_TARGET_WIFI</target>
+        <level>LEVEL_DEFAULT</level>
+    </Policy>
+    <Policy>
+        <condition>!S3&amp;&amp;C1&amp;&amp;!C8&amp;&amp;C17</condition>
+        <target>SAR_TARGET_WIFI</target>
+        <level>LEVEL_DEFAULT</level>
+    </Policy>
+    <Policy>
+        <condition>!S3&amp;&amp;C1&amp;&amp;C8&amp;&amp;!C17</condition>
+        <target>SAR_TARGET_WIFI</target>
+        <level>LEVEL_DEFAULT</level>
+    </Policy>
+    <Policy>
+        <condition>!S3&amp;&amp;C1&amp;&amp;C8&amp;&amp;C17</condition>
+        <target>SAR_TARGET_WIFI</target>
+        <level>LEVEL_DEFAULT</level>
+    </Policy>
+    <Policy>
+        <condition>S3&amp;&amp;!C1&amp;&amp;!C8&amp;&amp;!C17</condition>
+        <target>SAR_TARGET_WIFI</target>
+        <level>LEVEL_DEFAULT</level>
+    </Policy>
+    <Policy>
+        <condition>S3&amp;&amp;!C1&amp;&amp;!C8&amp;&amp;C17</condition>
+        <target>SAR_TARGET_WIFI</target>
+        <level>LEVEL_DEFAULT</level>
+    </Policy>
+    <Policy>
+        <condition>S3&amp;&amp;!C1&amp;&amp;C8&amp;&amp;!C17</condition>
+        <target>SAR_TARGET_WIFI</target>
+        <level>LEVEL_DEFAULT</level>
+    </Policy>
+    <Policy>
+        <condition>S3&amp;&amp;!C1&amp;&amp;C8&amp;&amp;C17</condition>
+        <target>SAR_TARGET_WIFI</target>
+        <level>LEVEL_DEFAULT</level>
+    </Policy>
+    <Policy>
+        <condition>S3&amp;&amp;C1&amp;&amp;!C8&amp;&amp;!C17</condition>
+        <target>SAR_TARGET_WIFI</target>
+        <level>LEVEL1</level>
+    </Policy>
+    <Policy>
+        <condition>S3&amp;&amp;C1&amp;&amp;!C8&amp;&amp;C17</condition>
+        <target>SAR_TARGET_WIFI</target>
+        <level>LEVEL1</level>
+    </Policy>
+    <Policy>
+        <condition>S3&amp;&amp;C1&amp;&amp;C8&amp;&amp;!C17</condition>
+        <target>SAR_TARGET_WIFI</target>
+        <level>LEVEL1</level>
+    </Policy>
+    <Policy>
+        <condition>S3&amp;&amp;C1&amp;&amp;C8&amp;&amp;C17</condition>
+        <target>SAR_TARGET_WIFI</target>
+        <level>LEVEL1</level>
+    </Policy>
+</policyconfig>
