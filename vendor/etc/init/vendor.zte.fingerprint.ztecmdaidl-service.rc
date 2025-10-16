@@ -1,0 +1,7 @@
+
+service ztecmdaidl /vendor/bin/hw/vendor.zte.fingerprint.ztecmdaidl-service
+   class late_start
+   user system
+   group system input uhid
+   writepid /dev/cpuset/top-app/tasks
+   disabled

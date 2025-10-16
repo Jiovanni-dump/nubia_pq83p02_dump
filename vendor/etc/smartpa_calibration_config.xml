@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <config
+        params="DevNum:4;DevPath1:/dev/i2c-7;Min1:5.0;Max1:9.6;Min2:5.0;Max2:9.6;Min3:5.0;Max3:9.6;Min4:5.0;Max4:9.6"
+    />
+</configuration>

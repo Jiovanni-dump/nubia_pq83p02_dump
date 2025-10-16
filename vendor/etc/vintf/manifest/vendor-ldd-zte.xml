@@ -1,0 +1,7 @@
+<manifest version="1.0" type="device">
+    <hal format="aidl">
+        <name>vendor.zte.ldd.cmd</name>
+        <version>2</version>
+        <fqname>IZteLddCmd/default</fqname>
+    </hal>
+</manifest>
