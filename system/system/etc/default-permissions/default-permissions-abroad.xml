@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+
+<exceptions>
+    <exception
+            package="com.zte.zdm"
+            sha256-cert-digest="D9:73:1D:BE:FD:C0:0B:28:8C:BF:7A:36:12:6B:0A:C1:A8:AD:E0:4B:39:E2:85:45:EB:96:71:40:74:44:3E:19">
+        <permission name="android.permission.POST_NOTIFICATIONS" fixed="false"/>
+    </exception>
+</exceptions>

@@ -1,0 +1,75 @@
+<Poetic Serenity>
+<main>
+default_wallpaper_ne1b1
+<secondary>
+default_wallpaper_m14b1
+default_wallpaper_m13u4
+default_wallpaper_m12t6
+default_wallpaper_m13u3
+
+<Minimalist Art>
+<main>
+default_wallpaper_ne1g3
+<secondary>
+default_wallpaper_ne1g4
+default_wallpaper_ne1g1
+
+<Iridescent Reverie>
+<main>
+default_wallpaper_ne1a1
+<secondary>
+default_wallpaper_m14r1
+default_wallpaper_ne1h6a
+default_wallpaper_ne1f2
+default_wallpaper_m13a2
+default_wallpaper_ne1f1
+default_wallpaper_m14r2
+
+<Silky>
+<main>
+default_wallpaper_z60uphoto3
+default_wallpaper_z60uphoto2
+
+<Cluster of Brocade>
+<main>
+default_wallpaper_m14c1
+<secondary>
+default_wallpaper_m14e1
+default_wallpaper_m14e4
+default_wallpaper_m13d2
+default_wallpaper_m14a7
+
+<Creatures of the Sea>
+<main>
+default_wallpaper_m14d1
+default_wallpaper_m14d2
+
+<Vibrant Cool>
+<main>
+default_wallpaper_ne1e4
+<secondary>
+default_wallpaper_ne1e5
+default_wallpaper_ne1e6
+
+<Genesis>
+<main>
+com.zte.livewallpaper.LiveWallpaper_ne1c1_Pad_Service
+<secondary>
+default_wallpaper_ne1c2
+default_wallpaper_m14i3
+
+<Time Tunnel>
+<main>
+default_wallpaper_rm14f3
+default_wallpaper_rm14f2
+
+<Eye of the Universe>
+<main>
+com.zte.livewallpaper.LiveWallpaper_m14k1_Pad_Service
+<secondary>
+com.zte.livewallpaper.LiveWallpaper_m14k2_Pad_Service
+com.zte.livewallpaper.LiveWallpaper_m13k1_Pad_Service
+com.zte.livewallpaper.LiveWallpaper_m13k3_Pad_Service
+
+
+

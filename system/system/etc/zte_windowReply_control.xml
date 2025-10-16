@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<WindowReplyControl>
+    <policy name="systemApp_whiteList">
+        <item package="android" />
+        <item package="com.android.intentresolver" />
+        <item package="com.android.permissioncontroller" />
+        <item package="com.google.android.permissioncontroller" />
+        <item package="com.zte.floatassist" />
+    </policy>
+    <policy name="forceSupport_whiteList">
+        <item package="com.android.chrome" />
+        <item package="com.google.android.gm" />
+        <item package="com.google.android.apps.maps" />
+        <item package="com.google.android.youtube" />
+        <item package="com.google.android.apps.youtube.music" />
+        <item package="com.google.android.videos" />
+        <item package="com.facebook.katana" />
+        <item package="com.facebook.orca" />
+        <item package="com.skype.raider" />
+        <item package="com.twitter.android" />
+        <item package="com.ss.android.ugc.trill" />
+        <item package="com.zhiliaoapp.musically" />
+        <item package="com.tencent.mm" />
+        <item package="com.ume.browser.cust" />
+        <item package="com.whatsapp" />
+        <item package="com.discord" />
+        <item package="org.telegram.messenger" />
+        <item package="jp.naver.line.android" />
+        <item package="com.amazon.mShop.android.shopping" />
+        <item package="com.instagram.android" />
+        <item package="com.spotify.music" />
+        <item package="com.google.android.apps.messaging" />
+        <item package="com.google.android.keep" />
+        <item package="com.HoYoverse.hkrpgoversea" />
+        <item package="com.miHoYo.GenshinImpact" />
+        <item package="com.levelinfinite.hotta.gp" />
+        <item package="com.nttdocomo.android.danimeapp" />
+        <item package="com.einnovation.temu" />
+        <item package="com.maxstream" />
+        <item package="com.instagram.barcelona" />
+        <item package="com.playrix.gardenscapes" />
+        <item package="com.garena.game.codm" />
+        <item package="com.jio.media.ondemand" />
+        <item package="com.snapchat.android" />
+        <item package="com.google.android.apps.nbu.paisa.user" />
+        <item package="com.pubg.imobile" />
+        <item package="com.ludo.king" />
+        <item package="com.ansangha.drdriving" />
+        <item package="com.didiglobal.passenger" />
+        <item package="com.ubercab" />
+        <item package="com.dts.freefireth" />
+        <item package="com.threads.starling" />
+        <item package="com.shopify.arrive" />
+        <item package="hu.tesco.clubcard" />
+        <item package="com.perkciti.nectarrecognition" />
+        <item package="com.netflix.NGP.FootballManagerMobile" />
+        <item package="com.rsi.nba" />
+        <item package="com.metagame.watermelonmastermergefruit" />
+        <item package="com.supercell.brawlstars" />
+        <item package="com.openai.chatgpt" />
+        <item package="com.lidl.eci.lidlplus" />
+        <item package="com.activision.callofduty.warzone" />
+        <item package="com.gojek.gopay" />
+        <item package="com.shopee.sg" />
+        <item package="dogtranslator.dogscanner.talkingdog.com" />
+        <item package="jp.ne.docomo.lemino.android" />
+        <item package="jp.co.rakuten.pay" />
+        <item package="com.nianticlabs.pikmin" />
+        <item package="com.survivor.io.shooting.adventure.royale" />
+        <item package="com.globe.gcash.android" />
+        <item package="com.moveit.app.customer" />
+        <item package="com.activision.callofduty.shooter" />
+        <item package="com.vng.codmvn" />
+        <item package="com.tencent.tmgp.kr.codm" />
+        <item package="com.hwqgrhhjfd.idlefastfood" />
+        <item package="com.bigwinepot.nwdn.international" />
+        <item package="com.techsteck.ifooduser" />
+        <item package="com.taxis99" />
+        <item package="com.tomoloyalty.yuu" />
+        <item package="com.fairprice.mcomapp" />
+        <item package="com.tencent.ig" />
+        <item package="com.pubg.krmobile" />
+        <item package="com.vng.pubgmobile" />
+        <item package="com.dts.freefiremax" />
+        <item package="com.supercell.clashofclans" />
+    </policy>
+    <policy name="unSystemApp_blackList">
+    </policy>
+    <policy name="transparentStatusBar_notOverlayCaption_appList">
+        <item package="cn.wps.moffice_eng" />
+        <item package="com.ume.browser" />
+        <item package="com.tencent.mm" />
+        <item package="com.tencent.weread" />
+        <item package="com.tencent.tim" />
+        <item package="com.tencent.mobileqq" />
+        <item package="com.MobileTicket" />
+        <item package="com.sankuai.movie" />
+        <item package="com.coolapk.market" />
+        <item package="com.zte.mifavor.zsearch" />
+        <item package="com.android.gallery3d" />
+        <item package="com.weico.international" />
+        <item package="com.eg.android.AlipayGphone" />
+        <item package="com.quark.browser" />
+        <item package="com.zte.smarthome" />
+        <item package="io.legado.app.release" />
+        <item package="com.smile.gifmaker" />
+        <item package="org.telegram.messenger" />
+        <item package="com.google.android.youtube" />
+        <item package="com.zte.softda" />
+        <item package="com.autonavi.minimap" />
+    </policy>
+    <policy name="unTransparentStatusBar_overlayCaption_appList">
+        <item package="cn.zte.bbs" />
+        <item package="cn.com.langeasy.LangEasyLexis" />
+        <item package="com.qiyi.video" />
+    </policy>
+    <policy name="transparentStatusBar_notOverlayCaption_classList">
+    </policy>
+    <policy name="unTransparentStatusBar_overlayCaption_classList">
+    </policy>
+    <policy name="needClear_otherViewCoverCaption_appList">
+        <item package="com.hexin.plat.android" />
+        <item package="com.jingdong.app.mall" />
+        <item package="com.tencent.qgame" />
+    </policy>
+</WindowReplyControl>

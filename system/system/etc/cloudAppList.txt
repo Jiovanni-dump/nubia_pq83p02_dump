@@ -1,0 +1,10 @@
+com.cmss.cloudcomputer.tablet
+com.zte.mobile
+com.aiscloudpc.mobile
+com.ctg.itrdc.clouddesk
+cm.komect.aqb.android.hjqbind
+cm.komect.aqb.android.launcher
+cm.komect.aqb.android.cloudcomputerpad
+com.centerm.weixun
+com.aliyun.wuying.enterprise
+com.zte.usmartlauncher
