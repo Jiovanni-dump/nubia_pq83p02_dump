@@ -1,0 +1,11 @@
+recovery.img.xz
+product/app/YouTube/YouTube.apk.xz
+product/app/Gmail2/Gmail2.apk.xz
+product/app/Photos/Photos.apk.xz
+product/app/Maps/Maps.apk.xz
+product/app/TrichromeLibrary64/TrichromeLibrary64.apk.xz
+system_ext/priv-app/Settings_MFV_abroad_tablet/Settings_MFV_abroad_tablet.apk.xz
+vendor/etc/dts/dts-eagle.lic.xz
+product/priv-app/GmsCore/GmsCore.apk.xz
+product/priv-app/Velvet/Velvet.apk.xz
+system/system/priv-app/NubiaCamera/NubiaCamera.apk.xz

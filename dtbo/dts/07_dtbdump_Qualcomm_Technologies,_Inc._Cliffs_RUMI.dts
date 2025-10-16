@@ -1,0 +1,210 @@
+/dts-v1/;
+
+/ {
+	model = "Qualcomm Technologies, Inc. Cliffs RUMI";
+	compatible = "qcom,cliffs-rumi\0qcom,cliffs\0qcom,rumi";
+	qcom,msm-id = <0x278 0x10000 0x266 0x10000>;
+	qcom,board-id = <0x0f 0x00>;
+
+	fragment@0 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			clock-frequency = <0x2ee00>;
+		};
+	};
+
+	fragment@1 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			clock-frequency = <0x2ee00>;
+		};
+	};
+
+	fragment@2 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			status = "disabled";
+		};
+	};
+
+	fragment@3 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			status = "disabled";
+		};
+	};
+
+	fragment@4 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+
+			usb_nop_phy {
+				compatible = "usb-nop-xceiv";
+				phandle = <0x02>;
+			};
+
+			phy@a784000 {
+				compatible = "qcom,usb-emu-phy";
+				reg = <0xa784000 0x9500>;
+				qcom,emu-init-seq = <0xfffff 0x04 0xffff0 0x04 0x100000 0x20 0x00 0x20 0x101f0 0x20 0x100000 0x3c 0x00 0x3c 0x00 0x04>;
+				phandle = <0x01>;
+			};
+		};
+	};
+
+	fragment@5 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+
+			dwc3@a600000 {
+				usb-phy = <0x01 0x02>;
+				dr_mode = "peripheral";
+				maximum-speed = "high-speed";
+			};
+		};
+	};
+
+	fragment@6 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			qcom,rumi_platform;
+		};
+	};
+
+	fragment@7 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			status = "nok";
+		};
+	};
+
+	fragment@8 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			status = "nok";
+		};
+	};
+
+	fragment@9 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			status = "nok";
+		};
+	};
+
+	fragment@10 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			status = "nok";
+		};
+	};
+
+	fragment@11 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			status = "nok";
+		};
+	};
+
+	fragment@12 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			status = "nok";
+		};
+	};
+
+	fragment@13 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			compatible = "qcom,ufs-phy-qrbtc-sdm845";
+			vdda-phy-supply = <0xffffffff>;
+			vdda-phy-max-microamp = <0x34026>;
+			vdda-pll-supply = <0xffffffff>;
+			vdda-pll-max-microamp = <0x4786>;
+			status = "ok";
+		};
+	};
+
+	fragment@14 {
+		target = <0xffffffff>;
+
+		__overlay__ {
+			limit-tx-hs-gear = <0x01>;
+			limit-rx-hs-gear = <0x01>;
+			limit-rate = <0x02>;
+			vdd-hba-supply = <0xffffffff>;
+			vcc-supply = <0xffffffff>;
+			vcc-max-microamp = <0x13d620>;
+			vccq-supply = <0xffffffff>;
+			vccq-max-microamp = <0x124f80>;
+			qcom,vddp-ref-clk-supply = <0xffffffff>;
+			qcom,vddp-ref-clk-max-microamp = <0x64>;
+			qcom,vccq-parent-supply = <0xffffffff>;
+			qcom,vccq-parent-max-microamp = <0x33450>;
+			qcom,disable-lpm;
+			rpm-level = <0x00>;
+			spm-level = <0x00>;
+			iommus = <0xffffffff 0x60 0x00>;
+			qcom,iommu-dma = "fastmap";
+			status = "ok";
+		};
+	};
+
+	__symbols__ {
+		usb_nop_phy = "/fragment@4/__overlay__/usb_nop_phy";
+		usb_emuphy = "/fragment@4/__overlay__/phy@a784000";
+	};
+
+	__fixups__ {
+		arch_timer = "/fragment@0:target:0";
+		memtimer = "/fragment@1:target:0";
+		disp_rsc = "/fragment@2:target:0";
+		cam_rsc = "/fragment@3:target:0";
+		soc = "/fragment@4:target:0";
+		usb0 = "/fragment@5:target:0";
+		qupv3_se5_2uart = "/fragment@6:target:0";
+		SILVER_OFF = "/fragment@7:target:0";
+		SILVER_RAIL_OFF = "/fragment@8:target:0";
+		GOLD_OFF = "/fragment@9:target:0";
+		GOLD_RAIL_OFF = "/fragment@10:target:0";
+		GOLD_PLUS_OFF = "/fragment@11:target:0";
+		GOLD_PLUS_RAIL_OFF = "/fragment@12:target:0";
+		ufsphy_mem = "/fragment@13:target:0";
+		L1D = "/fragment@13/__overlay__:vdda-phy-supply:0";
+		L4B = "/fragment@13/__overlay__:vdda-pll-supply:0";
+		ufshc_mem = "/fragment@14:target:0";
+		gcc_ufs_phy_gdsc = "/fragment@14/__overlay__:vdd-hba-supply:0";
+		L12B = "/fragment@14/__overlay__:vcc-supply:0";
+		L3D = "/fragment@14/__overlay__:vccq-supply:0";
+		L5B = "/fragment@14/__overlay__:qcom,vddp-ref-clk-supply:0";
+		S2B = "/fragment@14/__overlay__:qcom,vccq-parent-supply:0";
+		apps_smmu = "/fragment@14/__overlay__:iommus:0";
+	};
+
+	__local_fixups__ {
+
+		fragment@5 {
+
+			__overlay__ {
+
+				dwc3@a600000 {
+					usb-phy = <0x00 0x04>;
+				};
+			};
+		};
+	};
+};

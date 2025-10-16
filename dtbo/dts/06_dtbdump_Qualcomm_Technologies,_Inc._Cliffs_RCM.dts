@@ -1,0 +1,8 @@
+/dts-v1/;
+
+/ {
+	model = "Qualcomm Technologies, Inc. Cliffs RCM";
+	compatible = "qcom,cliffs-rcm\0qcom,cliffs\0qcom,rcm";
+	qcom,msm-id = <0x278 0x10000 0x266 0x10000>;
+	qcom,board-id = <0x15 0x00>;
+};

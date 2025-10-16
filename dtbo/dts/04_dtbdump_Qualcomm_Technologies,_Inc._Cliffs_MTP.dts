@@ -1,0 +1,8 @@
+/dts-v1/;
+
+/ {
+	model = "Qualcomm Technologies, Inc. Cliffs MTP";
+	compatible = "qcom,cliffs-mtp\0qcom,cliffs\0qcom,mtp";
+	qcom,msm-id = <0x278 0x10000 0x266 0x10000>;
+	qcom,board-id = <0x08 0x00>;
+};

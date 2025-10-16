@@ -1,0 +1,16 @@
+recovery.img
+product/app/Gmail2/Gmail2.apk
+product/app/TrichromeLibrary64/TrichromeLibrary64.apk
+product/app/YouTube/YouTube.apk
+product/app/Photos/Photos.apk
+product/app/Maps/Maps.apk
+product/priv-app/Velvet/Velvet.apk
+product/priv-app/GmsCore/GmsCore.apk
+system_ext/priv-app/Settings_MFV_abroad_tablet/Settings_MFV_abroad_tablet.apk
+system_ext/priv-app/SystemUI_MFV_tablet_abroad/SystemUI_MFV_tablet_abroad.apk
+vendor/etc/dts/dts-eagle.lic
+system/system/lib64/libzteFaceRecognitionModels.so
+system/system/app/NubiaGameLab/NubiaGameLab.apk
+system/system/app/LiveWallpaper_Pad_2880_2880/LiveWallpaper_Pad_2880_2880.apk
+system/system/priv-app/NubiaCamera/NubiaCamera.apk
+system/system/priv-app/GameSpace/GameSpace.apk
